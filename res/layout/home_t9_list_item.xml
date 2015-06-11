@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:paddingLeft="10dip"
+     android:background="?attr/actionBarItemBackground" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/pinyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ic_ab_dialer_holo_dark" />
+  <ImageView
+        android:id="@+id/fg1"
+        android:layout_width="wrap_content"
+        android:layout_height="75dip"
+        android:layout_toLeftOf="@+id/fg"
+         />
+     <ImageView
+        android:id="@+id/fg"
+        android:layout_width="1dip"
+        android:layout_height="@dimen/call_log_call_action_size"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/call_btn"
+        android:background="@drawable/ic_divider_dashed_holo_dark" />
+<View
+        android:id="@+id/call_log_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="@dimen/call_log_outer_margin"
+        android:layout_marginRight="@dimen/call_log_outer_margin"
+        android:background="#55ffffff" />
+</RelativeLayout>

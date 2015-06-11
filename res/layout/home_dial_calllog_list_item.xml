@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?attr/actionBarItemBackground" >
+
+    <ImageView
+        android:id="@+id/call_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/ic_calllog_outgoing_nomal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/call_type"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+             android:textColor="?android:attr/textColorPrimary"
+            android:textAppearance="?android:textAppearanceMedium"
+           />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#cccccc" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ic_ab_dialer_holo_dark" />
+
+    <ImageView
+        android:id="@+id/fg"
+        android:layout_width="1dip"
+        android:layout_height="@dimen/call_log_call_action_size"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/call_btn"
+        android:background="@drawable/ic_divider_dashed_holo_dark" />
+
+    <ImageView
+        android:id="@+id/fg1"
+        android:layout_width="wrap_content"
+        android:layout_height="75dip"
+        android:layout_toLeftOf="@+id/fg"
+         />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/fg1"
+        android:textColor="?android:attr/textColorSecondary"/>
+
+  <View
+        android:id="@+id/call_log_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="@dimen/call_log_outer_margin"
+        android:layout_marginRight="@dimen/call_log_outer_margin"
+        android:background="#55ffffff" />
+</RelativeLayout>
