@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2268/trunk/CSipSimple/src/com/csipsimple/api
+END
+SipMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1338/trunk/CSipSimple/src/com/csipsimple/api/SipMessage.java
+END
+SipProfile.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1215/trunk/CSipSimple/src/com/csipsimple/api/SipProfile.aidl
+END
+SipProfileState.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1215/trunk/CSipSimple/src/com/csipsimple/api/SipProfileState.aidl
+END
+MediaState.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1215/trunk/CSipSimple/src/com/csipsimple/api/MediaState.aidl
+END
+SipUri.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2168/trunk/CSipSimple/src/com/csipsimple/api/SipUri.java
+END
+SipConfigManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2165/trunk/CSipSimple/src/com/csipsimple/api/SipConfigManager.java
+END
+SipProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2258/trunk/CSipSimple/src/com/csipsimple/api/SipProfile.java
+END
+ISipService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2054/trunk/CSipSimple/src/com/csipsimple/api/ISipService.aidl
+END
+SipProfileState.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1685/trunk/CSipSimple/src/com/csipsimple/api/SipProfileState.java
+END
+NOTICE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2094/trunk/CSipSimple/src/com/csipsimple/api/NOTICE.txt
+END
+MediaState.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1327/trunk/CSipSimple/src/com/csipsimple/api/MediaState.java
+END
+SipCallSession.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1215/trunk/CSipSimple/src/com/csipsimple/api/SipCallSession.aidl
+END
+ISipConfiguration.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1215/trunk/CSipSimple/src/com/csipsimple/api/ISipConfiguration.aidl
+END
+SipManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2054/trunk/CSipSimple/src/com/csipsimple/api/SipManager.java
+END
+SipCallSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2268/trunk/CSipSimple/src/com/csipsimple/api/SipCallSession.java
+END

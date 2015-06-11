@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup
+END
+SipProfilesHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup/SipProfilesHelper.java
+END
+Columns.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup/Columns.java
+END
+SipBackupAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup/SipBackupAgent.java
+END
+SipSharedPreferencesHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup/SipSharedPreferencesHelper.java
+END
+SipProfileJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2153/trunk/CSipSimple/src/com/csipsimple/backup/SipProfileJson.java
+END
