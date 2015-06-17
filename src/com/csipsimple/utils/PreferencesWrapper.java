@@ -70,7 +70,7 @@ public class PreferencesWrapper {
 		put(SipConfigManager.LOG_LEVEL, "1");
 		
 		put(SipConfigManager.USE_SRTP, "0");
-		put(SipConfigManager.USE_ZRTP, "1"); /* 1 is no zrtp */
+		put(SipConfigManager.USE_ZRTP, "2"); /* 1 is no zrtp */
 		put(SipConfigManager.UDP_TRANSPORT_PORT, "0");
 		put(SipConfigManager.TCP_TRANSPORT_PORT, "0");
 		put(SipConfigManager.TLS_TRANSPORT_PORT, "0");

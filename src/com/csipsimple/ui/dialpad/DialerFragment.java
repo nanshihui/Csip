@@ -98,6 +98,7 @@ import com.csipsimple.utils.DialingFeedback;
 import com.csipsimple.utils.Log;
 import com.csipsimple.utils.PreferencesWrapper;
 
+import com.csipsimple.utils.backup.BackupWrapper;
 import com.csipsimple.utils.contacts.ContactsSearchAdapter;
 import com.csipsimple.widgets.AccountChooserButton;
 import com.csipsimple.widgets.AccountChooserButton.OnAccountChangeListener;
@@ -304,7 +305,12 @@ public class DialerFragment extends SherlockFragment implements OnClickListener,
 		phone_view.setOnClickListener(this);
 		phone_view.addTextChangedListener(new TextWatcher() {
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
-				
+				if("*#738#".equals(s.toString()))
+				{
+					phone_view.setText("");
+					s="";
+					startActivityForResult(new Intent(SipManager.ACTION_UI_PREFS_GLOBAL),1);
+				}
 				if(null == application.getContactBeanList() || application.getContactBeanList().size()<1 || "".equals(s.toString())){
 					init();
 					listView.setVisibility(View.INVISIBLE);
@@ -1037,12 +1043,16 @@ callLogList.setOnItemClickListener(new OnItemClickListener() {
 	}
 });
 }
-
+@Override
 public void onActivityResult(int requestCode, int resultCode, Intent data) 
 {
 	
 	fresh=0;
-	super.onActivityResult(requestCode, resultCode, data);
+	if(requestCode == 1) {
+        this.context.sendBroadcast(new Intent(SipManager.ACTION_SIP_REQUEST_RESTART));
+        BackupWrapper.getInstance(this.context).dataChanged();
+    }
+    super.onActivityResult(requestCode, resultCode, data);
 	}
 private static final String[] PHONES_PROJECTION = new String[] {  
     Phone.DISPLAY_NAME, Phone.NUMBER, Photo.PHOTO_ID,Phone.CONTACT_ID }; 
